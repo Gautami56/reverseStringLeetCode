@@ -1,0 +1,12 @@
+Pseudo Code 
+
+1. Given a string as input to function reverseWords 
+2. Split the string according to the digits into an array 1
+3. Take an empty array 2
+4. Go through array1 and map the array1 
+5.Take an empty strings string
+6. Take each element from array1 
+   6.a) Check if the element is number if not -  run for loop from last element to first and reverse each element
+   6.b) If the element is a number - push that number in array 2 directly
+7. Push element- string into array 2
+8. Now you get an array with reversed elements. Just join that together to convert into string
